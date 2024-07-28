@@ -1,0 +1,14 @@
+.header {
+    /* Стили для хедера */
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    padding: 25px 0;
+    width: 200px;
+}
