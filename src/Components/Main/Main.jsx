@@ -1,8 +1,5 @@
 import React from "react";
 import classes from "./Main.module.css"
-import lightning from "./../../assets/images/lightning.svg"
-import learning_way from "./../../assets/images/learning_way.svg"
-import Sergio from "./../../assets/images/Sergio.png"
 import Andrey from "./../../assets/images/Andrey.png"
 import Guitar from "./../../assets/images/Guitar.svg"
 import Left from "./../../assets/images/left.svg"
@@ -10,7 +7,10 @@ import Girl from "./../../assets/images/Girl.jpg"
 import Ivan from "./../../assets/images/Ivan.jpg"
 import Right from "./../../assets/images/right.svg"
 import Heart from "./../../assets/images/heart.svg"
-import Mediator from "./../../assets/images/mediator.svg"
+import Mediator from "./Mediator/Mediator.jsx";
+import ButtonRegister from "./ButtonRegister/ButtonRegister";
+import LearningWay from "./LearningWay/LearningWay";
+import BoxSystem from "./BoxSystem/BoxSystem";
 
 const Main = () =>{
     return(
@@ -19,61 +19,11 @@ const Main = () =>{
                 <h5>Научитесь играть на гитаре</h5>
                 <h1>За 10 ЗАНЯТИЙ</h1>
             </div>
-
-            <div className={classes.mediator}>
-                <div className={classes.mediatorInner} style= {{backgroundImage: `url(${Mediator})` }}>
-                    <div className={classes.mediatorTopText}>
-                        <h6>Курс для начинающих</h6>
-                        <h2>"ШАГ ВПЕРЁД"</h2>
-                    </div>
-                    <div className={classes.mediatorBottomText}>
-                        <p>Готов стать гитарной легендой за 10 дней?</p>
-                    </div>
-                </div>
-            </div>
-
-            <div className={classes.buttonRegister}>
-                <a href="#register-form">
-                    <div className={classes.buttonRegisterInner}>
-                        <span>ЗАРЕГИСТРИРОВАТЬСЯ НА КУРС</span>
-                        <img src={lightning} alt="img"/>
-                    </div>
-                </a>
-            </div>
-
-            <div className={classes.learningWay}>
-                <img src={learning_way} alt=""/>
-            </div>
-
-            <div className={classes.me}>
-                <h5>Сергей Уткин</h5>
-                <img src={Sergio} alt=""/>
-            </div>
-
-            <div className={classes.boxSystem}>
-                <div className={classes.contaner}>
-                    <h3>Почему наша система работает?</h3>
-                </div>
-            </div>
-
-            <div className={classes.details}>
-                <div className={classes.box}>
-                    <p>На занятиях даётся тот объём информации,
-который ученик может усвоить и не 
-запутаться</p>
-                </div>
-                <div className={classes.box}>
-                    <p>Ученики сразу начинают играть на гитаре, 
-                        что помогает быстрее освоить инструмент 
-                        и сохранять интерес к обучению.
-                        </p>
-                </div>
-                <div className={classes.box}>
-                    <p>Ученик может заниматься в своём темпе, 
-                        что обеспечивает комфортное и 
-                        эффективное обучение.</p>
-                </div>
-            </div>
+            <Mediator/>
+            <ButtonRegister/>
+            <LearningWay/>
+            <BoxSystem/>
+            
             <div className={classes.andr}>
                 <img src={Andrey} alt=""/>
                 <h5>Андрей Акст</h5>

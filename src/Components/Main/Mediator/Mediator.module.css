@@ -1,0 +1,56 @@
+.mediator {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mediatorInner {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 300px;
+    margin-top: 31px;
+}
+
+.mediatorInner h6 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #D6D6D6;
+    margin: 0;
+}
+
+.mediatorInner h2 {
+    font-weight: 800;
+    font-size: 26px;
+    color: #D6D6D6;
+    margin: 0;
+}
+
+.mediatorInner p {
+    margin-top: 34px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #D6D6D6;
+    max-width: 50%;
+}
+
+.mediatorTopText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.mediatorBottomText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mediatorBottomText p {
+    margin: 0;
+    margin-top: 34px;
+}
