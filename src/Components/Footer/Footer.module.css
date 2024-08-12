@@ -16,3 +16,8 @@
 .footer {
     /* Стили для футера */
 }
+.tikTok{
+    width: 51px !important;
+    height: 51px !important;
+    margin-left: 2px !important;
+}

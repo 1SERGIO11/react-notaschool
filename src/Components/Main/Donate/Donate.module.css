@@ -1,0 +1,38 @@
+.donate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate a {
+    text-decoration: none;
+}
+
+.donateInner {
+    width: 333px;
+    height: 58px;
+    background: #B6B6B6;
+    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 9px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.donateInner img {
+    width: 49px;
+    height: 41px;
+    margin: 10px;
+}
+
+.donate h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: 10px;
+    color: #323232;
+}

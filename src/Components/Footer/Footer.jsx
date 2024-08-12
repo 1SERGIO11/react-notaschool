@@ -14,7 +14,7 @@ const Footer = () =>{
                 <a href="https://t.me/nota_school"><img src={Tg} alt=""/></a>
                 <a href="https://vk.com/nota_school"><img src={Vk} alt=""/></a>
                 <a href="https://www.youtube.com/channel/UC4FSl_03zrmAi1nUv7lSDpw"><img src={YouTube} alt=""/></a>
-                <a href="https://www.tiktok.com/@_notaschool_"><img src={TikTok} alt=""/></a>
+                <a href="https://www.tiktok.com/@_notaschool_"><img src={TikTok} className={classes.tikTok} alt=""/></a>
             </div>
         </footer>
     );
