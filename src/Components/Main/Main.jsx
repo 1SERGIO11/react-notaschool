@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Main.module.css"
 import Andrey from "./../../assets/images/Andrey.png"
-import Guitar from "./../../assets/images/Guitar.svg"
+
 import Mediator from "./Mediator/Mediator.jsx";
 import ButtonRegister from "./ButtonRegister/ButtonRegister";
 import LearningWay from "./LearningWay/LearningWay";
@@ -9,6 +9,7 @@ import BoxSystem from "./BoxSystem/BoxSystem";
 import RegisterForm from "./RegisterForm/RegisterForm";
 import Review from "./Review/Review.jsx"
 import Donate from "./Donate/Donate";
+import CourseElement from "./CourseElement/CourseElement";
 
 const Main = () =>{
     return(
@@ -26,14 +27,7 @@ const Main = () =>{
                 <img src={Andrey} alt=""/>
                 <h5>Андрей Акст</h5>
             </div>
-            <div className={`${classes.boxSystem} ${classes.course}`}>
-                <div className={`${classes.contaner} ${classes.grad}`}>
-                    <h3>Что ты получишь от курса?</h3>
-                </div>
-            </div>
-            <div className={classes.guitar}>
-                <img src={Guitar} alt=""/>
-            </div>
+            <CourseElement/>
             <Review/>
             <RegisterForm/>
             <div className={classes.topDonate}>
