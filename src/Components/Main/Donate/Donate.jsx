@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Donate.module.css"
-import Heart from "./../../assets/images/heart.svg"
+import Heart from "./../../../assets/images/heart.svg"
 
 const Donate = () =>{
     return(
